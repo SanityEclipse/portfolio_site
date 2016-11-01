@@ -10,24 +10,17 @@ span {
   margin: 20px;
 }
 
-#aboutMe {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 50px;
-
+a:link, a:visited {
+  color: black;
 }
 
-#projects {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 50px;
-}
-
-#contact {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 50px;
+.link:hover {
+  color: red;
+  text-decoration: none;
 }
 
 .header {
-  opacity: 0.9;
+  opacity: 0.8;
   background-color: black;
   color: white;
   padding: 1px;
@@ -35,7 +28,7 @@ span {
 }
 
 .footer {
-  opacity: 0.9;
+  opacity: 0.8;
   color: white;
   background-color: black;
   position:absolute;
@@ -43,4 +36,26 @@ span {
   bottom: 0;
   left: 0;
   font-family: 'Open Sans Condensed', sans-serif;
+}
+.ng-enter {
+  transition:0.7s linear all;
+  opacity:0;
+}
+
+.ng-enter.ng-enter-active {
+  opacity:1;
+}
+
+#headerLink {
+  color: white;
+  text-decoration: none;
+}
+#headerLink:hover {
+  color: red;
+}
+
+#projectsHeader {
+  opacity: 0.1;
+  font-size: 150px;
+  margin-left: 10px; 
 }
