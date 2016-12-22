@@ -11,17 +11,23 @@
   </head>
   <body ng-controller="MainController">
 
-    <header class = "header" align="center">
-      <div class="page-header">
+    <nav class="navbar navbar-default navbar-fixed-top" style="background-color:black" align="center">
+      <div class="container header">
         <a id="headerLink" href="#/"><h1>Thomas Rizzo <small>Web Developer</small></h1></a>
       </div>
-    </header>
+    </nav>
 
     <div ng-view></div>
 
-    <div class="footer">
+    <nav class="navbar navbar-default navbar-fixed-bottom" style="background-color:black">
+      <div class="container-fluid footer">
+        <span><h5 align="center">Thomas Rizzo </span><span class="glyphicon glyphicon-copyright-mark" aria-hidden="true">2016</h5></span>
+      </div>
+    </nav>
+
+    <!-- <div class="footer">
       </span><h5 align="center">Thomas Rizzo <span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"> 2016</h5></span>
-    </div>
+    </div> -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.js"></script>

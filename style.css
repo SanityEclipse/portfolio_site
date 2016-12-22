@@ -4,10 +4,9 @@ body {
     background: -o-linear-gradient(-90deg, #787878, white); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(-90deg, #787878, white); /* For Firefox 3.6 to 15 */
     background: linear-gradient(-90deg, #787878, white); /* Standard syntax */
-}
-
-span {
-  margin: 20px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-size: 100%;
 }
 
 a:link, a:visited {
@@ -21,7 +20,6 @@ a:link, a:visited {
 
 .header {
   opacity: 0.8;
-  background-color: black;
   color: white;
   padding: 1px;
   font-family: 'Open Sans Condensed', sans-serif;
@@ -31,11 +29,8 @@ a:link, a:visited {
   opacity: 0.8;
   color: white;
   background-color: black;
-  position:absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
   font-family: 'Open Sans Condensed', sans-serif;
+
 }
 .ng-enter {
   transition:0.7s linear all;
@@ -56,6 +51,6 @@ a:link, a:visited {
 
 #projectsHeader {
   opacity: 0.1;
-  font-size: 150px;
-  margin-left: 10px; 
+  font-size: 10em;
+  margin-left: 10px;
 }
