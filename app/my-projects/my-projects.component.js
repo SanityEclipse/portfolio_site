@@ -1,10 +1,11 @@
 (function (){
   'use strict';
 
-  angular.module('app', {
-    controller : controller,
-    templateUrl: '',
-    css        : ''
+  angular.module('app')
+    .component ('', {
+      controller : controller,
+      templateUrl: '',
+      css        : ''
   })
 
   function controller() {

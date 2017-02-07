@@ -2,13 +2,15 @@
 <html ng-app='app'>
 
   <head>
+
     <meta charset="utf-8">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
     <title>Thomas Rizzo</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Oleo+Script|Roboto" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin = "anonymous">
+    <link rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=Oleo+Script|Roboto">
+    <link rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700">
+    <link rel = "stylesheet" href = "style.css">
+
   </head>
 
   <body>
@@ -26,22 +28,24 @@
 
     <div ng-view></div>
 
-    <nav class="navbar navbar-default navbar-fixed-bottom" style="background-color:black">
-      <div class="container-fluid footer">
-        <span><h5 align="center">Thomas Rizzo </span><span class="glyphicon glyphicon-copyright-mark" aria-hidden="true">2016</h5></span>
-      </div>
-    </nav>
-
     <!-- <div class="footer">
       </span><h5 align="center">Thomas Rizzo <span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"> 2016</h5></span>
     </div> -->
 
-    <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.js"></script>
-    <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.js"></script>
-    <script src = ></script>
-    <script src = ></script>
-    <script src = ></script>
-    <script src = ></script>
+    <!-- CDN Dependencies -->
+    <script src = "https://code.jquery.com/jquery-3.1.1.slim.js" integrity = "sha256-5i/mQ300M779N2OVDrl16lbohwXNUdzL/R2aVUXyXWA=" crossorigin = "anonymous"></script>
+    <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/angular-css/1.0.8/angular-css.js"></script>
+
+    <!-- Application Modules/Components/Serivces -->
+    <script src = "./app/app.module.js"></script>
+    <script src = "./app/about-me/about-me.component.js"></script>
+    <script src = "./app/contact-info/contact-info.component.js"></script>
+    <script src = "./app/layout/bottom-footer/bottom-footer.component.js"></script>
+    <script src = "./app/layout/top-header/top-header.component.js"></script>
+    <script src = "./app/my-projects/my-projects.component.js"></script>
+    <script src = "./app/site-landing/site-landing.component.js"></script>
 
   </body>
 
