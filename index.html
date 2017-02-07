@@ -1,8 +1,10 @@
 <!DOCTYPE html>
+
 <html ng-app='app'>
 
   <head>
 
+    <base href="/">
     <meta charset="utf-8">
     <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
     <title>Thomas Rizzo</title>
@@ -15,31 +17,22 @@
 
   <body>
 
-    <nav class="navbar navbar-default navbar-fixed-top" style="background-color:black" align="center">
-      <div class="container-fluid">
-        <div class="header">
-          <a id="headerLink" href="#/"><h1>Thomas Rizzo <small>Web Developer</small></h1></a>
-        </div>
-      <!-- <button type="button" class="btn btn-default" aria-label="Left Align">
-        <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
-      </button> -->
-      </div>
-    </nav>
+    <top-header></top-header>
 
-    <div ng-view></div>
-
-    <!-- <div class="footer">
-      </span><h5 align="center">Thomas Rizzo <span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"> 2016</h5></span>
-    </div> -->
+    <ui-view>Loading...</ui-view>
+    
+    <bottom-footer></bottom-footer>
 
     <!-- CDN Dependencies -->
     <script src = "https://code.jquery.com/jquery-3.1.1.slim.js" integrity = "sha256-5i/mQ300M779N2OVDrl16lbohwXNUdzL/R2aVUXyXWA=" crossorigin = "anonymous"></script>
     <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
     <script src = "https://cdnjs.cloudflare.com/ajax/libs/angular-css/1.0.8/angular-css.js"></script>
+    <script src="https://unpkg.com/angular-ui-router@1.0.0-beta.3/release/angular-ui-router.js"></script>
 
     <!-- Application Modules/Components/Serivces -->
     <script src = "./app/app.module.js"></script>
+    <script src = "./app/app.routes.js"></script>
     <script src = "./app/about-me/about-me.component.js"></script>
     <script src = "./app/contact-info/contact-info.component.js"></script>
     <script src = "./app/layout/bottom-footer/bottom-footer.component.js"></script>

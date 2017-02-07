@@ -2,14 +2,14 @@
   'use strict';
 
   angular.module('app')
-    .component ('', {
-      controller : controller,
-      templateUrl: '',
-      css        : ''
+    .component ('myProjects', {
+      controller  : controller,
+      templateUrl : './app/my-projects/my-projects.view.html',
+      css         : './app/my-projects/my-projects.style.css'
   })
 
   function controller() {
-
+    const vm = this; 
   }
 
 })();
