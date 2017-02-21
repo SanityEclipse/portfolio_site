@@ -1,5 +1,3 @@
-body {
-  background-image: url("/assets/images/puget (1).jpg");
-  background-repeat: no-repeat;
-  background-size: 200vh 200vw;
+button {
+  margin: 5%;
 }
