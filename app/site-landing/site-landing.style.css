@@ -1,0 +1,14 @@
+#landing {
+  font-family:'Open Sans Condensed', sans-serif;
+  font-size: 5em;
+}
+
+#landing > div > img {
+  height:auto;
+  width:25vw;
+  margin-top:10vh;
+  margin-bottom:6vh;
+  opacity: 0.9;
+  float: center
+
+}
