@@ -18,20 +18,6 @@ a:link, a:visited {
   text-decoration: none;
 }
 
-.header {
-  opacity: 0.8;
-  color: white;
-  padding: 1px;
-  font-family: 'Open Sans Condensed', sans-serif;
-}
-
-.footer {
-  opacity: 0.8;
-  color: white;
-  background-color: black;
-  font-family: 'Open Sans Condensed', sans-serif;
-
-}
 .ng-enter {
   transition:0.7s linear all;
   opacity:0;
@@ -41,16 +27,20 @@ a:link, a:visited {
   opacity:1;
 }
 
-#headerLink {
-  color: white;
-  text-decoration: none;
-}
-#headerLink:hover {
-  color: red;
+span {
+  color: grey;
 }
 
-#projectsHeader {
-  opacity: 0.1;
-  font-size: 10em;
-  margin-left: 10px;
+.btn {
+  background-color: black;
+  opacity: 0.4;
+}
+
+.btn:hover {
+  background-color: black;
+  opacity: 0.8;
+}
+
+#buttonStyle {
+  margin: 5%;
 }

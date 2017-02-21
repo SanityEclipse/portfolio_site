@@ -1,0 +1,13 @@
+#aboutMe {
+  font-family:'Open Sans Condensed', sans-serif;
+  font-size: 2em;
+  margin-top: 18vh;
+  color: black;
+
+}
+
+#aboutMe > div > img {
+  height: auto;
+  width: 25vw;
+
+}
