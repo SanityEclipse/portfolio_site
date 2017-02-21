@@ -26,3 +26,21 @@ a:link, a:visited {
 .ng-enter.ng-enter-active {
   opacity:1;
 }
+
+span {
+  color: grey;
+}
+
+.btn {
+  background-color: black;
+  opacity: 0.4;
+}
+
+.btn:hover {
+  background-color: black;
+  opacity: 0.8;
+}
+
+#buttonStyle {
+  margin: 5%;
+}
