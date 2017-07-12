@@ -1,0 +1,43 @@
+.menu-item {
+  text-transform: Uppercase;
+  font-weight: 600;
+  font-size: 1.50em;
+  font-family: Roboto;
+  padding: 5px%;
+  margin: 5px;
+}
+.active {
+  background-color: #ececec;
+}
+.icon-bar {
+  background-color: black;
+}
+hr.style8 {
+	border-top: 3px solid #292929; /* onyx black */
+	border-bottom: 1px solid #fff;
+}
+hr.style8:after {
+	content: '';
+	display: block;
+	margin-top: 2px;
+	border-top: 2px solid #858585; /* medium grey */
+	border-bottom: 1px solid #fff;
+}
+a {
+  color:black;
+}
+button {
+  background-color: #ececec;
+  border: 1px solid #999999;
+}
+
+#branding {
+  font-family: Rock Salt;
+  font-size: 2em;
+  font-weight: 800;
+}
+#subhead {
+  font-weight: 700;
+  font-size: 0.75em;
+  color: #999999;
+}
