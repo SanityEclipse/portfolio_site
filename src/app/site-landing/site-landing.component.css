@@ -1,1 +1,38 @@
-
+.jumbotron {
+  background: url(/assets/images/IMG_4453.JPG);
+  background-size: cover;
+  padding: 3%;
+}
+div.transbox {
+    margin: 5px;
+    background-color: #ffffff;
+    border: 1px solid #858585;
+    border-radius: 7px;
+    opacity: 0.8;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+div.transbox p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: bold;
+    opacity:1;
+    color: #000000;
+}
+div.transbox h1 {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    font-weight: bold;
+    opacity:1;
+    color: #000000;
+}
+h1 {
+  font-family: Rock Salt;
+  font-weight: 800;
+}
+p {
+  font-family: Roboto;
+}
