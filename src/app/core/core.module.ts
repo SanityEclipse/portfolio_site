@@ -1,10 +1,12 @@
 import { NgModule, Optional, SkipSelf } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { NavHeaderComponent } from './nav-header.component';
+
 @NgModule({
-  declarations:[],
+  declarations:[ NavHeaderComponent ],
   imports: [ CommonModule ],
-  exports: [],
+  exports: [ NavHeaderComponent ],
   providers: []
 })
 

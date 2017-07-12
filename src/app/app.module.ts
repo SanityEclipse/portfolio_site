@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 
 import { AppRoutingModule } from './app-routing.module';
+import { SiteLandingComponent } from './site-landing/site-landing.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SiteLandingComponent
   ],
   imports: [
     BrowserModule,
